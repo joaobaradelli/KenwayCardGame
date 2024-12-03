@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-image: url(../../imagens/wallpapersobre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu ul{
+    margin: 0;
+    font-family: "Kdam Thmor Pro";
+    background-color: #0000007c;
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    transition: 0.5s;
+    padding: 15px 13px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    padding: 0px 7.5px;
+    color: white;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+#all{
+    color: white;
+    position: absolute;
+    text-align: justify;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.719);
+    box-shadow: 0 0 5em 8em rgba(0, 0, 0, 0.719);
+}
+
+#tituloh1{
+    text-align: center;
+}

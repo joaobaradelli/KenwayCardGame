@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-image: url(../imagens/wallpaperindex.jpg);
+    background-position: 10% 30%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(133, 13, 13);
+    border-radius: 0px;
+  }
+
+#popup{
+    position: absolute;
+    text-align: center;
+    display: none;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.808);
+    box-shadow: 0 0 5em 100em rgba(0, 0, 0, 0.808);
+    width: 100%;
+    height: 100%;    
+}
+
+#popuph1{
+    color: white;
+    margin-bottom: -25px;
+}
+
+#subpopup{
+    color: white;
+}
+
+#downloadcartas{
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0px 0px 15px 0px;
+    width: 175px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, rgb(179, 2, 2), rgb(126, 2, 2));
+}
+
+#downloadcartas:hover{
+    transition: 0.5s;
+    opacity: 85%;
+}
+
+#linkdownload{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Kdam Thmor Pro";
+    color: white;
+}
+
+#fecharpopup{
+    cursor: pointer;
+    margin: 0px 0px 0px 10px;
+}
+
+#menu ul {
+    margin: 0;
+    font-family: "Kdam Thmor Pro";
+    background-color: #0000007c;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    transition: 0.5s;
+    padding: 15px 13px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    padding: 0px 7.5px;
+    color: white;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+#start {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10em 5em rgba(0, 0, 0, 0.199);
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+#bordahr1 {
+    position: absolute;
+    top: 45.3%;
+    left: 28.2%;
+    transform: translate(-50%, -50%);
+}
+
+#hrstart {
+    position: absolute;
+    width: 42.9%;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bordahr2 {
+    position: absolute;
+    top: 45.3%;
+    left: 71.8%;
+    transform: translate(-50%, -50%);
+}
+
+#tituloh1 {
+    margin-bottom: 0px;
+    color: white;
+}
+
+#ph3 {
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-size: 18px;
+}
+
+#jogueagora {
+    font-family: "Kdam Thmor Pro";
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 15px;
+    margin: 15px 0px 15px 0px;
+    width: 125px;
+    border: none;
+    background: linear-gradient(to right, rgb(179, 2, 2), rgb(126, 2, 2));
+    color: white;
+    border-radius: 25px;
+}
+
+#jogueagora:hover {
+    transition: 0.5s;
+    background: rgb(207, 169, 0);
+    box-shadow: 0 0.25em 1em 0.5em black;
+    width: 150px;
+}
+
+#comojogar{
+    font-family: "Kdam Thmor Pro";
+    float: right;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 10px;
+    margin: 7px;
+    width: 110px;
+    border: none;
+    background: linear-gradient(to right, rgb(179, 2, 2), rgb(126, 2, 2));
+    color: white;
+    border-radius: 25px;
+}
+
+#comojogar:hover{
+    transition: 0.5s;
+    margin: 7px;
+    padding: 7px;
+    border: 3px solid rgb(179, 2, 2);
+    background: none;
+}
+
+#game1img,
+#game2img {
+    border-radius: 7px;
+}
+
+#game1 {
+    width: 500px;
+    position: absolute;
+    top: 77%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+.game1p {
+    color: white;
+    text-align: justify;
+}
+
+#game2 {
+    width: 450px;
+    position: absolute;
+    top: 76%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+
+.game2p {
+    color: white;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#cartas {
+    transition: 0.5s;
+    font-family: "Kdam Thmor Pro";
+    cursor: pointer;
+    color: white;
+    width: 450px;
+    padding: 15px;
+    margin: 15px 0px 25px 0px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(179, 2, 2), rgb(126, 2, 2));
+}
+
+#cartas:hover {
+    transition: 0.5s;
+    opacity: 85%;
+}
+
+#barradevs {
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    border-bottom: 500px solid rgb(179, 2, 2);
+    border: none;
+    color: white;
+    background: linear-gradient(to right, rgb(179, 2, 2), rgb(126, 2, 2));
+}
+
+#devs {
+    padding: 0px 0px 0px 25px;
+    margin-bottom: 0;
+}
+
+#subdevs {
+    padding: 0px 0px 0px 25px;
+    margin-top: 0;
+}
+
+.pics {
+    border-radius: 100%;
+    margin: 0px 0px 0px 25px;
+}

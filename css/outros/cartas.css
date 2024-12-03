@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-blend-mode: darken;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: url(../../imagens/wallpapercartas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+}
+
+#menu ul {
+    margin: 0;
+    font-family: "Kdam Thmor Pro";
+    background-color: #0000007c;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    transition: 0.5s;
+    padding: 15px 13px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    padding: 0px 7px;
+    color: white;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.edwardimg {
+    width: 205px;
+    height: 250px;
+    position: absolute;
+    left: 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+    transition: 0.25s;
+}
+
+.edwardimg:hover {
+    transform: scale(1.15);
+}
+
+.edwardtxt {
+    text-align: left;
+    position: absolute;
+    left: 250px;
+    width: 450px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+.henryimg {
+    width: 205px;
+    height: 270px;
+    position: absolute;
+    left: 1120px;
+    top: 50%;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.henryimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.henrytxt {
+    position: absolute;
+    left: 650px;
+    top: 50%;
+    width: 450px;
+    text-align: right;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+h2 {
+    text-align: right;
+}
+
+.barbaimg {
+    width: 205px;
+    height: 250px;
+    position: absolute;
+    left: 20px;
+    top: 80%;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.barbaimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.barbatxt {
+    text-align: left;
+    position: absolute;
+    top: 80%;
+    left: 250px;
+    width: 450px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+.davyimg {
+    width: 205px;
+    height: 250px;
+    position: absolute;
+    top: 120%;
+    left: 1120px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.davyimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.davytxt {
+    position: absolute;
+    width: 450px;
+    top: 120%;
+    left: 650px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font: bold;
+    line-height: 25px;
+
+}
+
+.kiddimg {
+    width: 205px;
+    height: 250px;
+    position: absolute;
+    top: 160%;
+    left: 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+
+}
+
+.kiddimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.kiddtxt {
+    position: absolute;
+    top: 160%;
+    left: 250px;
+    width: 450px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.anneimg {
+    position: absolute;
+    top: 200%;
+    left: 1120px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.anneimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.annetxt {
+    position: absolute;
+    top: 200%;
+    left: 650px;
+    width: 450px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.drakeimg {
+    position: absolute;
+    top: 240%;
+    left: 20px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+
+}
+
+.drakeimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.draketxt {
+    position: absolute;
+    top: 240%;
+    left: 250px;
+    width: 450px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+.jackimg {
+    position: absolute;
+    top: 280%;
+    left: 1120px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.jackimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.jacktxt {
+    position: absolute;
+    top: 280%;
+    left: 650px;
+    width: 450px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+.bartimg {
+    position: absolute;
+    top: 320%;
+    left: 20px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.bartimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.barttxt {
+    position: absolute;
+    top: 320%;
+    left: 250px;
+    width: 450px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+.connorimg {
+    position: absolute;
+    top: 360%;
+    left: 1120px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+
+}
+
+.connorimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.connortxt {
+    position: absolute;
+    top: 360%;
+    left: 650px;
+    width: 450px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.shayimg {
+    position: absolute;
+    top: 400%;
+    left: 20px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.shayimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.shaytxt {
+    position: absolute;
+    top: 400%;
+    left: 250px;
+    width: 450px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.davyytimg {
+    position: absolute;
+    top: 480%;
+    left: 20px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+
+}
+
+.davyytimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.davyyttxt {
+    position: absolute;
+    top: 480%;
+    left: 250px;
+    width: 450px;
+    text-align: justify;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.leftft {
+    text-align: left;
+}
+
+.fernandoimg {
+    position: absolute;
+    top: 440%;
+    left: 1120px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.fernandoimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.fernandotxt {
+    position: absolute;
+    top: 440%;
+    left: 650px;
+    width: 450px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.atk {
+    color: red;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+hr {
+    border-radius: 10px;
+}
+
+.df {
+    position: absolute;
+    top: 530%;
+    margin-left: 32%;
+    color: blue;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+img {
+    transition: 00.25s;
+}
+
+.whydahimg {
+    position: absolute;
+    top: 570%;
+    left: 20px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.whydahtxt {
+    position: absolute;
+    top: 570%;
+    left: 250px;
+    width: 450px;
+    text-align: justify;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.adventureimg {
+    position: absolute;
+    top: 610%;
+    left: 1120px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.adventuretxt {
+    position: absolute;
+    top: 610%;
+    left: 650px;
+    width: 450px;
+    text-align: justify;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.gralhaimg {
+    position: absolute;
+    top: 650%;
+    left: 20px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.gralhatxt {
+    position: absolute;
+    top: 650%;
+    left: 250px;
+    width: 450px;
+    text-align: justify;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.revengeimg {
+    position: absolute;
+    top: 690%;
+    left: 1120px;
+    width: 205px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.revengetxt {
+    position: absolute;
+    top: 690%;
+    left: 650px;
+    width: 450px;
+    text-align: justify;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.whydahimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.adventureimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.gralhaimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.revengeimg:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.txtright {
+    text-align: right;
+}
