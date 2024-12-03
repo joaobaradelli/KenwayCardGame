@@ -6,7 +6,7 @@ O **Kenway Card Game** é um website experimental simples criado com o objetivo 
 
 O jogo é ambientado no mundo dos piratas, com cartas que representam personagens, itens e eventos que remetem a essa temática, além de famosos atuais. 
 
-## Demonstração de uma página do projeto
+## ✒️ Página Inicial do Website
 ![](https://github.com/joaobaradelli/KenwayCardGame/blob/main/imagens/gifs/demo1.gif)
 
 ## 🛠 Tecnologias Utilizadas
