@@ -2,6 +2,8 @@
 
 O **Kenway Card Game** é um website experimental simples criado com o objetivo de divulgar e disponibilizar o download de um jogo de cartas temático de **piratas** e **navegações**. O website oferece aos usuários a possibilidade de baixar e imprimir seu próprio baralho de cartas personalizado, inspirado no universo pirata, para jogar em qualquer lugar. O projeto foi desenvolvido utilizando **HTML** e **CSS** como uma forma de introdução ao desenvolvimento de websites interativos e responsivos.
 
+Projeto desenvolvido em 2022, 1º Ano do curso de **Desenvolvimento de Sistemas**.
+
 ## 🏴‍☠️ Tema
 
 O jogo é ambientado no mundo dos piratas, com cartas que representam personagens, itens e eventos que remetem a essa temática, além de famosos atuais. 
